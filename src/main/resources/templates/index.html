@@ -4,6 +4,9 @@
  <meta charset="UTF-8"> <title>Spring Boot Thymeleaf </title> 
  </head> 
 <body>
-
+<th:block th:text=${message}>message</th:block>
+<form action="" method="post">
+nom:<input type="text" name="nom"><input type="submit">
+</form>
 </body>
 </html>
